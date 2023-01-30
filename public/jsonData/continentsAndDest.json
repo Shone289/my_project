@@ -1,28 +1,33 @@
 {
-
-  "europe": {
+"list":[
+  {"europe": {
+    "path": "europe",
     "header": "Europe (Old Continent)",
     "about": ["From England and France to Italy and Germany, European countries are full of vibrant cities known for their museums, restaurants, nightlife and architecture. It comes as no surprise that deciding which spots are the best places to visit in Europe can be difficult. Use this list to help you plan your next trip."],
     "destinations":[
       {
+        "path": "london",
         "name": "London, England",
         "about": "About london",
         "imgs_url": []
       },
       {
-        "name": "Paris, France",
+        "path": "paris",
+        "name": "Paris, French",
         "about": "About Paris",
         "imgs_url": []
       },
       {
+        "path": "rome",
         "name": "Rome, Italy",
         "about": "About Rome",
         "imgs_url": []
       }
     ]
-  },
+  }},
 
-  "asia": {
+  {"asia": {
+    "path": "asia",
     "header": "Asia",
     "about": [
       "Asia is the largest continent by both size and population-a diverse, multicultural melting pot of some of the oldest civilizations on earth. There's so much to see and do in Asia, it's hard to narrow it down to a shortlist-it could take you months to truly explore just one country.",
@@ -62,9 +67,11 @@
         ]
       }
     ]
+  }
   },
 
-  "southAmerica": {
+  {"southAmerica": {
+    "path": "southAmerica",
     "header": "South America",
     "about": [
       "South America is, simply put, a continent teeming with superlatives. If you’ve ever wanted to experience the most of what our fantastic planet has to offer, then South America may very well be the place to visit. This enormous continent comes complete with the longest mountain range in the world, the world’s largest river basin, the driest place on earth, the second largest river (after the Nile), and one of the greatest concentrations of biodiversity on our planet. Not to mention, the continent is home to a vast array of rich cultures, history, traditions, food, and once-in-a-lifetime places to visit.",
@@ -91,5 +98,6 @@
         "imgs_url": []
       }
     ]
-  }
+  }}
+]
 }

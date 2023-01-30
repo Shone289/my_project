@@ -38,10 +38,13 @@ app.get('/', function(req, res){
 });
 app.get('/test', function(req, res){
   res.render('404');
-})
+});
+
 //
 // ERROR ROUTING HANDLING
-
+app.use(function(req, res, next){
+  res.status(404).render('404');
+})
 
 //
 //  SET APP LISTENING

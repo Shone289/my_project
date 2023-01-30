@@ -8,19 +8,22 @@ function getData(url){
     if(this.status == 200){
       console.log("STATUS IS 200");
       //console.log(JSON.parse(this.response));
-      sendData(JSON.parse(this.response).europe);
+      sendData(JSON.parse(this.response));
       
     }
   };
   req.send();
 }
 
-function sendData(data){
+function sendData(dt){
+  let data = dt.list[0].europe;
   console.log(data);
   const ncontent = document.getElementsByClassName('main-content')[0];
 
+  //set content HEADER 
   ncontent.getElementsByTagName('h1')[0].innerHTML = data.header;
   
+  //seting content paragraphs
   for(let i = 0; i < data.about.length; i++){
     const np = document.createElement('p');
     np.innerHTML = data.about[i];
@@ -28,6 +31,7 @@ function sendData(data){
   }
 
 }
+
 
 getData(url);
 /*
