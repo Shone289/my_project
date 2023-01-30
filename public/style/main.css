@@ -1,0 +1,104 @@
+*{
+  box-sizing: border-box;
+}
+:root{
+  --content-view-width: 90%;
+  --bg-color: #f3f3f3;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-color);
+}
+
+div.container {
+  width: var(--content-view-width);
+  margin: auto;
+}
+
+/*
+*   HEADER STYLE
+*/
+div.container header{
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+div.container header h1{
+  font-family:'Times New Roman', Times, serif;
+  font-size: 4em;
+  color: #111111;
+  text-align: center;
+}
+
+/*nav bar*/
+.nav{
+  margin: auto;
+  border-top: 2px rgb(161, 3, 3) solid;
+}
+.nav > ul.continents-list{
+  display: flex;
+  justify-content: flex-start;
+  position: -webkit-sticky;
+  position: sticky;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #111111;
+}
+.nav ul.continents-list > li a{
+  display: block;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  padding: 15px 18px;
+  margin: 0;
+}
+.nav ul.continents-list > li a:hover{
+  background-color: #2b2b2b;
+  box-shadow: 2px 0 8px #aaaaaa;
+}
+
+
+/* for under list */
+.nav ul.continents-list .dropdown-content{
+  display: none;
+  position: absolute;
+  min-width: 100px;
+  background-color: white;
+  box-shadow: 0px 8px 14px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.nav ul.continents-list .dropdown-content a{
+  color: #111111;
+  display: block;
+  text-align: left;
+}
+.nav ul.continents-list .dropdown-content a:hover{
+  background-color: #eeeeee;
+}
+
+.nav ul.continents-list > li.dropdown:hover .dropdown-content{
+  display: inline-block;
+}
+
+
+/*
+*   STYLE FOR CONTENT
+*/
+div.container-row{
+  border: 2px solid brown;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+div.container-row .main-content {
+  width: 70%;
+  background-color: white;
+}
+div.container-row .aside {
+  width: 25%;
+  background-color: darkgoldenrod;
+}

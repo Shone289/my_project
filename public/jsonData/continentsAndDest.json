@@ -1,0 +1,95 @@
+{
+
+  "europe": {
+    "header": "Europe (Old Continent)",
+    "about": ["From England and France to Italy and Germany, European countries are full of vibrant cities known for their museums, restaurants, nightlife and architecture. It comes as no surprise that deciding which spots are the best places to visit in Europe can be difficult. Use this list to help you plan your next trip."],
+    "destinations":[
+      {
+        "name": "London, England",
+        "about": "About london",
+        "imgs_url": []
+      },
+      {
+        "name": "Paris, France",
+        "about": "About Paris",
+        "imgs_url": []
+      },
+      {
+        "name": "Rome, Italy",
+        "about": "About Rome",
+        "imgs_url": []
+      }
+    ]
+  },
+
+  "asia": {
+    "header": "Asia",
+    "about": [
+      "Asia is the largest continent by both size and population-a diverse, multicultural melting pot of some of the oldest civilizations on earth. There's so much to see and do in Asia, it's hard to narrow it down to a shortlist-it could take you months to truly explore just one country.",
+
+      "For those on a tighter schedule or budget, the secret to discovering the best places to travel in Asia is to see a bit of everything-from the skyscrapers of Hong Kong to the majestic slopes of Mount Fuji and the architectural marvel of places like Angkor Wat in Cambodia."
+    ],
+    "destinations": [
+      {
+        "name": "Mount Fuji, Japan",
+        "about": [
+          "Although Mount Fuji is an active stratovolcano, it hasn't erupted since 1708. The stunning snowcapped mountain is one of Japan's \"Three Holy Mountains,\" which are traditionally considered to hold a particular power-Mount Fuji has volcanic power.",
+
+          "If this doesn't sound ominous enough, the base of the mountain is also home to Aokigahara. Also known as \"The Suicide Forest,\" this dense forest growing on hardened lava is home to ice caves, a combination that absorbs sound and creates an eerie feeling of solitude.",
+
+          "While many visitors come here to just photograph this World Heritage List Cultural Site and well-known symbol of Japan, others arrive for the climbing opportunities. Until the late 19<sup>th</sup> century, women were not allowed to make their way to the summit (which is still considered a sacred site), so visitors of all ethnicities, genders, and ages now arrive to make up for lost time.",
+
+          "There are four possible routes to reach the top of the mountain, and all offer a number of stops along the way in the form of shrines, historical monuments, and even teahouses.",
+
+          "You may also want to plan your visit to Japan around the spring cherry blossoms, another popular tourist attraction."
+        ],
+        "imgs_url": []
+      },
+      {
+        "name": "Phuket, Thailand",
+        "about": [
+          "Thailand's biggest island is also a magnet for visitors-and for good reason. Phuket boasts some of the best beaches in the country, with clean, soft, rolling sands and turquoise waters as far as the eye can see.",
+
+          "Kata, Hat Karon, and Kamala beaches see a lot of tourists during the high season (November to February) but remain sleepy little villages once the rains arrive. Beautiful coral reefs line up the coastline, offering amazing opportunities for snorkeling and diving but also sea kayaking and island hopping.",
+
+          "In between hours of lying under the sun, visitors can head to the white and gold Wat Chalong, the largest and most important Buddhist temple on the island, or climb up a hill to reach the Big Buddha-a 45-meter-tall statue covered with Burmese marble.",
+
+          "The island is also home to a number of unique festivals. The Ghost Festival during the 7th Chinese lunar month is dedicated to ancestor worship, and it entails releasing lanterns into the ocean to help guide lost souls-a sight to behold.",
+
+          "The Vegetarian Festival during the 9th Chinese lunar month is another stunning celebration-which, despite the name, is not so much about food but about purification and putting the body through extreme tests, such as fire walking and hanging from hooks."
+        ],
+        "imgs_url": [
+        ]
+      }
+    ]
+  },
+
+  "southAmerica": {
+    "header": "South America",
+    "about": [
+      "South America is, simply put, a continent teeming with superlatives. If you’ve ever wanted to experience the most of what our fantastic planet has to offer, then South America may very well be the place to visit. This enormous continent comes complete with the longest mountain range in the world, the world’s largest river basin, the driest place on earth, the second largest river (after the Nile), and one of the greatest concentrations of biodiversity on our planet. Not to mention, the continent is home to a vast array of rich cultures, history, traditions, food, and once-in-a-lifetime places to visit.",
+
+      "12 nations share this incredible piece of Earth, and hence: it’s no small wonder that the very act of traveling to South America might seem daunting at first. “Where do I even begin?” you might ask yourself. Luckily, the unforgettable memories and feedback of our beloved travelers – which we have accompanied on so many journeys throughout this marvelous continent – have shed light on some of the absolute must-see countries in South America. Below, we list the Top 5 Countries in South America that should definitely be on your radar for this year, along with all the reasons why!"
+    ],
+    "destinations": [
+      {
+        "name": "Ecuador & the Galapagos",
+        "about": [
+          "When it comes to exploring South America, there’s no better place to start than right from the middle of the world! Straddling the equator, the aptly named country of Ecuador is one of the smaller Andean nations, but don’t let its size fool you – this humble place is one of 17 megadiverse countries, packing one of the highest levels of biodiversity per square kilometer in the whole world. That being said: you don’t need to go far within the country to discover new and fascinating things. Ecuador is also home to the world’s first and second UNESCO World Heritage Sites (we’ll get to that below).",
+
+          "Ecuador during recent years has grown tremendously in popularity. Many visitors, in fact, have fallen so in love with this country , that a large portion of them end up staying here!",
+
+          "Expats and retirees have even made it their go-to place for settling down, and for all the right reasons, too: optimal weather year-round, a decent quality of life, a reasonable cost of living (with the US Dollar as the official currency), gorgeous scenery, friendly locals, fantastic visitor sites, and all of it within a relatively small country."
+        ],
+        "imgs_url": []
+      },
+      {
+        "name": "Machu Picchu, Peru",
+        "about": [
+          "The crown jewel of Peru is undoubtedly the sublime and “Lost City” of Machu Picchu. Sitting high up top in the mountains, this archeological wonder never fails to dazzle visitors that come from around the globe to admire its timeless beauty and jaw-dropping vistas. Machu Picchu still stands as one of the Inca Empire’s greatest architectural feats, with its giant walls, terraces, and ramps – a large portion of them cut so skillfully that they fit together almost perfectly."
+        ],
+        "imgs_url": []
+      }
+    ]
+  }
+}
